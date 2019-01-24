@@ -1,7 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <PackageId>PangCrypt</PackageId>
+        <Version>1.0.0-beta</Version>
+        <Authors>jchv</Authors>
+        <Description>Library implementing PangYa's transport encryption</Description>
+        <PackageTags>pangya;encryption;transport;networking</PackageTags>
+        <PackageLicenseExpression>GPL-2.0-or-later AND ISC</PackageLicenseExpression>
+
+        <RepositoryUrl>https://github.com/pangyatools/PangCrypt</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/pangyatools/PangCrypt</PackageProjectUrl>
+
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
 
 </Project>
